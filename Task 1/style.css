@@ -41,4 +41,58 @@
             align-items: center;
         }
 
-      
+        label {
+            width: 100px;
+            font-weight: bolder;
+            color: #333;
+            margin-right: 10px;
+            font-size: 14px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="password"] {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+            min-width: 0;
+        }
+
+        .gender-group {
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+        }
+
+        .gender-group > label {
+            width: 100px;
+            margin-right: 10px;
+        }
+
+        .gender-options {
+            display: flex;
+            gap: 15px;
+            flex: 1;
+        }
+
+        .gender-option {
+            display: flex;
+            align-items: center;
+        }
+
+        .gender-option input {
+            margin-right: 5px;
+        }
+
+        .gender-option label {
+            width: auto;
+            margin-right: 0;
+        }
+
+       
+        
+    
+    
